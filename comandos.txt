@@ -1,0 +1,9 @@
+git init =  Cria um repositório em um diretório vazio
+git add = <nome do arquivo> - Inclui o arquivo no mapeamento do repositório, incluindo todos os arquivos no mapeamento.
+git status = Apresenta se há arquivos e/ou mudanças que ainda não fazem parte de um registro na linha do tempo (commit)
+git commit -m "mensagem" - Cria um nó na linha do tempo, m= comentário que indica o conteúdo da atualização
+git config = <escopo, global, local> user.email"seu email" - adiciona um email para manipular o repositório
+git config = <escopo> user.name"seu nome" - adiciona um nome para o usuário
+git remote add origin = "link do repositório remoto" - associa um repositório local a um remoto
+git push origin master = envia o conteúdo local para o repositório remoto
+git pull - atualiza o repositório local com o conteúdo do conteúdo remoto 
